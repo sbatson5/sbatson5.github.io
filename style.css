@@ -59,6 +59,10 @@ h5 {
   font-style: italic;
 }
 
+.social {
+  margin-top: 30px;
+}
+
 .social ul {
   display: flex;
   list-style: none;
@@ -76,11 +80,42 @@ h5 {
 
 .social li a {
   color: #555;
-  font-size: 15px;
   text-align: center;
-  visibility: hidden;
+  text-decoration: none;
 }
 
-.social li:hover a {
-  visibility: visible;
+.social li a div {
+  color: #000;
+  text-align: center;
+}
+
+.social li a .hover-text {
+  font-size: 15px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.social li:hover a .hover-text {
+  opacity: 1;
+}
+
+.projects li {
+  display: block;
+  line-height: 25px;
+}
+
+.projects li .hover-text {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.projects li:hover .hover-text {
+  opacity: 1;
+}
+
+.projects a {
+  color: rgb(31, 121, 199);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
 }
