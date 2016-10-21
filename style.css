@@ -1,0 +1,49 @@
+body {
+  width: 800px;
+  margin: 20px auto;
+}
+
+h1, h4, .overview {
+  font-family: ‘Merriweather’, Georgia, serif;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h3 {
+  color: rgb(31, 121, 199);
+  font-size: 15px;
+}
+
+h4 a {
+  color: black;
+  text-decoration: none;
+}
+
+.topic h4 {
+  margin-bottom: 5px;
+}
+
+.topic p, .description {
+  color: #555;
+  font-family: ‘Merriweather’, Georgia, serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h5 {
+  margin-top: 0;
+}
+
+.skills {
+  color: #777;
+}
+
+.location, .position {
+  font-weight: 100;
+}
+
+.position {
+  font-style: italic;
+}
