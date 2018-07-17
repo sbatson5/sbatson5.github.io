@@ -42,6 +42,11 @@ h4 a:hover {
   line-height: 20px;
 }
 
+.topic p a {
+  text-decoration: none;
+  font-style: italic;
+}
+
 h5 {
   color: #555;
   margin-top: 0;
